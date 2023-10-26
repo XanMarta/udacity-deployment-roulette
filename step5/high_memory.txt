@@ -1,0 +1,10 @@
+The application using the most memory is hello-world
+
+
+❯ k top po | sort -k 3
+hello-world-c57f59b87-7q42v           2m           19Mi            
+bloaty-mcbloatface-56bfff44df-4hcnp   1m           3Mi             
+bloaty-mcbloatface-56bfff44df-72wdf   1m           3Mi             
+bloaty-mcbloatface-56bfff44df-7v5lf   1m           3Mi             
+bloaty-mcbloatface-56bfff44df-8v9rp   1m           3Mi
+...
